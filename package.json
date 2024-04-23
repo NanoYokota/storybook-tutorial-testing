@@ -12,7 +12,8 @@
     "build-storybook": "storybook build",
     "init-msw": "msw init public/",
     "chromatic": "npx chromatic --project-token=chpt_820b81b01d76483",
-    "test-storybook": "test-storybook"
+    "test-storybook": "test-storybook",
+    "cypress": "cypress open"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -33,6 +34,7 @@
     "@vitejs/plugin-react": "^4.0.0",
     "axe-playwright": "^2.0.1",
     "chromatic": "^11.3.0",
+    "cypress": "^13.8.0",
     "eslint": "^8.38.0",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
